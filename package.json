@@ -1,0 +1,33 @@
+{
+  "name": "constant-key",
+  "version": "0.0.0",
+  "description": "Simple module to create an object for constants from an array of strings",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ramda": "^0.8.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/apax-software/constant-key.git"
+  },
+  "keywords": [
+    "object",
+    "constants",
+    "ramda"
+  ],
+  "author": "Matt Smith <msmith@apaxsoftware.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apax-software/constant-key/issues"
+  },
+  "homepage": "https://github.com/apax-software/constant-key"
+}
